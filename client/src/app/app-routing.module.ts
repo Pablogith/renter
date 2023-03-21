@@ -16,6 +16,10 @@ const routes: Routes = [
     loadComponent: () => import('./pages/dashboard/dashboard.component').then(c => c.DashboardComponent)
   },
   {
+    path: 'properties',
+    loadComponent: () => import('./pages/properties/properties.component').then(c => c.PropertiesComponent)
+  },
+  {
     path: 'documents',
     loadComponent: () => import('./pages/documents/documents.component').then(c => c.DocumentsComponent)
   },
