@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Renter.Properties.Service.WebAPI.props" />
+</Project>

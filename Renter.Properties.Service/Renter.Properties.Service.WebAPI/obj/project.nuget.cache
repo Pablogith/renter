@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rkdd8vnju/B9rqtTT44ROYxKNwsfg9LC2IsJEcKUxXKl+K7wNA4pvPgNxaX4d/ejwGL8D7H2QduThvLWuUaf+g==",
+  "dgSpecHash": "YTiX+HtwQEKq/Nj9+fHI9y7pxeLlM+B39pa/UWJ9FVKNpL8d0OrgOqpYfN+Ypzarj9XNn6TwKMnwpIxBEPcjNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PawełReliński\\Documents\\personal_projects\\renter\\Renter.Properties.Service\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\PawełReliński\\Documents\\personal_projects\\renter\\Renter.Properties.Service\\Renter.Properties.Service.WebAPI\\Renter.Properties.Service.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PawełReliński\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\PawełReliński\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

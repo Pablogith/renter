@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+4TdbK09HwY1oJ9q1MVX8PUzUG6mOwwhAJBaFUD23EU=",
+  "Source": "Renter.Properties.Service.WebAPI",
+  "BasePath": "_content/Renter.Properties.Service.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
