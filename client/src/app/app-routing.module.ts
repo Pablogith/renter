@@ -1,7 +1,29 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'dashboard',
+    pathMatch: 'full'
+  },
+  {
+    path: 'calendar',
+    loadComponent: () => import('./pages/calendar/calendar.component').then(c => c.CalendarComponent)
+  },
+  {
+    path: 'dashboard',
+    loadComponent: () => import('./pages/dashboard/dashboard.component').then(c => c.DashboardComponent)
+  },
+  {
+    path: 'documents',
+    loadComponent: () => import('./pages/documents/documents.component').then(c => c.DocumentsComponent)
+  },
+  {
+    path: 'reports',
+    loadComponent: () => import('./pages/reports/reports.component').then(c => c.ReportsComponent)
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
