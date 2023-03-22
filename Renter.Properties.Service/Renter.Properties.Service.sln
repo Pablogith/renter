@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renter.Properties.Service.WebAPI", "Renter.Properties.Service.WebAPI\Renter.Properties.Service.WebAPI.csproj", "{62AFBBB8-162F-4306-84C6-4D62FC88385E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renter.Properties.Service.API", "Renter.Properties.Service.API\Renter.Properties.Service.API.csproj", "{62AFBBB8-162F-4306-84C6-4D62FC88385E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renter.Properties.Serive.Services", "Renter.Properties.Serive.Services\Renter.Properties.Serive.Services.csproj", "{AD6AC5BF-4638-4FFF-89D5-EEF88A56E1E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renter.Properties.Service.Infrastructure", "Renter.Properties.Service.Infrastructure\Renter.Properties.Service.Infrastructure.csproj", "{AD6AC5BF-4638-4FFF-89D5-EEF88A56E1E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renter.Properties.Service.Abstractions", "Renter.Properties.Service.Abstractions\Renter.Properties.Service.Abstractions.csproj", "{A2EC8413-BBB2-4E4A-A88A-6D94C9384141}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renter.Properties.Service.Domain", "Renter.Properties.Service.Domain\Renter.Properties.Service.Domain.csproj", "{A2EC8413-BBB2-4E4A-A88A-6D94C9384141}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
