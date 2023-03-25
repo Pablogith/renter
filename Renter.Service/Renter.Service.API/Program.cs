@@ -1,3 +1,4 @@
+using Renter.Service.API.Middleware;
 using Renter.Service.Application;
 using Renter.Service.Infrastructure;
 
@@ -20,11 +21,9 @@ var app = builder.Build();
         app.UseSwaggerUI();
     }
 
+    app.UseMiddleware<ErrorHandlingMiddleware>();
     app.UseHttpsRedirection();
-
     app.UseAuthorization();
-
     app.MapControllers();
-
     app.Run();
 }

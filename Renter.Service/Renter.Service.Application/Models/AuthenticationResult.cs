@@ -1,9 +1,8 @@
-﻿namespace Renter.Service.Application.Models;
+﻿using Renter.Service.Domain.Entities;
+
+namespace Renter.Service.Application.Models;
 
 public record AuthenticationResult(
-    Guid Id,
-    string FirstName,
-    string LastName,
-    string Email,
+    User User,
     string Token
     );
