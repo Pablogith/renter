@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Renter.Service.API.Filters;
 using Renter.Service.Application.Services.Authentication;
 using Renter.Service.Contracts.Authentication;
 
