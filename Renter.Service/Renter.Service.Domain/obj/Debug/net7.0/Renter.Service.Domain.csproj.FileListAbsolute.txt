@@ -1,0 +1,12 @@
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\bin\Debug\net7.0\Renter.Service.Domain.deps.json
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\bin\Debug\net7.0\Renter.Service.Domain.dll
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\bin\Debug\net7.0\Renter.Service.Domain.pdb
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.csproj.AssemblyReference.cache
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.AssemblyInfoInputs.cache
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.AssemblyInfo.cs
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.dll
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\refint\Renter.Service.Domain.dll
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\Renter.Service.Domain.pdb
+C:\Users\PawełReliński\Documents\personal_projects\renter\Renter.Service\Renter.Service.Domain\obj\Debug\net7.0\ref\Renter.Service.Domain.dll

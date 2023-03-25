@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uahXvE7/H2llGZ6OzgtBCdQQPkC53/ROIQmsWj1NimU=",
+  "Source": "Renter.Service.API",
+  "BasePath": "_content/Renter.Service.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
