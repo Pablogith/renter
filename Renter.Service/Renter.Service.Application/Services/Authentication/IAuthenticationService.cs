@@ -1,6 +1,4 @@
-﻿using Renter.Service.Application.Models;
-
-namespace Renter.Service.Application.Services.Authentication;
+﻿namespace Renter.Service.Application.Services.Authentication;
 
 public interface IAuthenticationService
 {

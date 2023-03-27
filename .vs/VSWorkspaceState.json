@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Renter.Properties.Service",
-    "\\Renter.Properties.Service\\Renter.Properties.Service.API",
-    "\\Renter.Properties.Service\\Renter.Properties.Service.API\\DTOs",
-    "\\Renter.Properties.Service\\Renter.Properties.Service.API\\DTOs\\Properties"
+    ""
   ],
-  "SelectedNode": "\\Renter.Properties.Service\\Renter.Properties.Service.API\\DTOs\\Properties\\AddProperty.Response.cs",
   "PreviewInSolutionExplorer": false
 }

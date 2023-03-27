@@ -1,4 +1,3 @@
-using Renter.Service.API.Filters;
 using Renter.Service.Application;
 using Renter.Service.Infrastructure;
 

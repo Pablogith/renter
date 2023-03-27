@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Renter.Service.Application.Common.Errors;
 
 namespace Renter.Service.API.Controllers;
 
@@ -10,6 +11,14 @@ public class ErrorsController : ControllerBase
     {
         Exception? exception = HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
 
-        return Problem(title: exception?.Message);
+        var (statusCode, message) = exception switch
+        {
+            IServiceException serviceException => ((int)serviceException.StatusCode, serviceException.ErrorMessage),
+            _ => (StatusCodes.Status500InternalServerError, "An unexpected error occurrded.")
+        };
+
+        return Problem(
+            statusCode: statusCode,
+            title: message);
     }
 }

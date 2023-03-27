@@ -1,6 +1,6 @@
-﻿using Renter.Service.Application.Common.Interfaces.Authentication;
+﻿using Renter.Service.Application.Common.Errors;
+using Renter.Service.Application.Common.Interfaces.Authentication;
 using Renter.Service.Application.Common.Interfaces.Persistence;
-using Renter.Service.Application.Models;
 using Renter.Service.Domain.Entities;
 
 namespace Renter.Service.Application.Services.Authentication;
@@ -20,7 +20,7 @@ public class AuthenticationService : IAuthenticationService
     {
         if (_userRepository.GetByEmail(email) is not null)
         {
-            throw new Exception("User with given data email exist");
+            throw new DuplicateEmailException();
         }
 
         var user = new User
@@ -42,12 +42,12 @@ public class AuthenticationService : IAuthenticationService
     {
         if (_userRepository.GetByEmail(email) is not User user)
         {
-            throw new Exception("User with given data email does not exist");
+            throw new EmailNotExistException();
         }
 
         if (user.Password != password)
         {
-            throw new Exception("Given password is invalid");
+            throw new InvalidPasswordException();
         }
 
         var token = _jwtTokenGenerator.GenerateToken(user);
